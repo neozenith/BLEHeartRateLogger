@@ -23,16 +23,13 @@ setup(
         'Environment :: Console',
         'Intended Audience :: Science/Research',
         'License :: OSI Approved :: BSD License',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.6',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Topic :: Scientific/Engineering :: Bio-Informatics',
     ],
 
     keywords = 'bluetooth heart-rate logging',
     packages = find_packages(),
-    install_requires = ['pexpect', 'configparser'],
+    install_requires = ['pexpect', 'configparser', 'bleak'],
 
     entry_points = {
         'console_scripts': [

@@ -10,6 +10,10 @@ The code was used successfully with the following devices:
 - Zephyr HxM
 - Wahoo TICKR
 
+# TODO:
+
+ - convert to using `bleak`.
+
 
 ## Installation
 

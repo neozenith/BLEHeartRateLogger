@@ -3,3 +3,5 @@
 *.pyo
 *.db
 BLEHeartRateLogger.conf
+.venv
+*.egg-info
